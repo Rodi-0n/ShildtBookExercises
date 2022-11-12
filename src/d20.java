@@ -26,6 +26,8 @@ public class d20 {
             int x = getRandomDiceNumberD20();
             if(x == 20){
                 System.out.println("D20: " + x + " — critical damage!");
+            } else if(x == 1) {
+                System.out.println("D20: " + x + " — weakling!");
             } else {
                 System.out.println("D20: " + x);
             }
